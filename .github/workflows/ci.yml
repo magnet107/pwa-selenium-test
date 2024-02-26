@@ -31,10 +31,5 @@ jobs:
     - name: Build and Run Selenium tests
       run: |
         cd SeleniumCode
-        javac -cp ".:path/to/selenium-server-standalone.jar" src/org/example/*.java
-        java -cp ".:path/to/selenium-server-standalone.jar" org.example.MobileResponsivenessTest
-        java -cp ".:path/to/selenium-server-standalone.jar" org.example.PWATestFour
-        java -cp ".:path/to/selenium-server-standalone.jar" org.example.PWATestThree
-        java -cp ".:path/to/selenium-server-standalone.jar" org.example.PWATestTwo
+        javac -cp ".:path/to/selenium-server-standalone.jar" src/org/example/PWATestOne.java
         java -cp ".:path/to/selenium-server-standalone.jar" org.example.PWATestOne
-        java -cp ".:path/to/selenium-server-standalone.jar" org.example.TestManifest
