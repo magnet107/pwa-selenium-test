@@ -19,12 +19,9 @@ jobs:
         cd login
         npm install
         node server.js
-
     - name: navigate back
       run: |
         cd ..
-
-
     - name: Set up Java
       uses: actions/setup-java@v2
       with:
